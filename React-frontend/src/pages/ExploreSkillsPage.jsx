@@ -30,7 +30,8 @@ export default function ExploreSkillsPage() {
     setSearchParams(params);
   }, [searchTerm, selectedSkill, setSearchParams]);
 
-  // When URL changes from external navigation
+  // When URL changes from external navigationhhjjhj
+
   useEffect(() => {
     const skillParam = searchParams.get('skill');
     if (skillParam) {
