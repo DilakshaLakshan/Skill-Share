@@ -38,7 +38,7 @@ const getProgressTypeIcon = (type) => {
 export default function LearningProgressCard({ progress, isOwner, onEdit, onDelete }) {
   const navigate = useNavigate();
 
-  // Format dates for display and showing in the card
+  // Format dates for display
   const formatDate = (dateString) => {
     if (!dateString) return '';
     return new Date(dateString).toLocaleDateString();
