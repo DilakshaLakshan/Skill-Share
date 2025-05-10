@@ -32,7 +32,7 @@ const validationSchema = Yup.object({
     .email('Enter a valid email')
     .required('Email is required'),
 });
-
+//EditProfilePage
 export default function EditProfilePage() {
   const [profilePictureFile, setProfilePictureFile] = useState(null);
   const [coverPhotoFile, setCoverPhotoFile] = useState(null);
