@@ -39,7 +39,7 @@ const CreateProgressDialog = ({ open, onClose, progressToEdit = null, userId }) 
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   
-  // Fetch skills for autocompl bete
+  // Fetch skills for autocomplete
   const { data: skillsData } = useQuery(
     ['skills'],
     skillApi.getTrendingSkills,
