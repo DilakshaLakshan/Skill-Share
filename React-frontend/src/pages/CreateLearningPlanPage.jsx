@@ -22,7 +22,7 @@ const validationSchema = Yup.object({
     .min(1, 'At least one skill is required')
     .max(10, 'Maximum 10 skills are allowed'),
 });
-
+//CreateLearningPlanPage
 export default function CreateLearningPlanPage() {
   const { planId } = useParams();
   const navigate = useNavigate();
