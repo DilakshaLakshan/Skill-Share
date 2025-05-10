@@ -14,7 +14,7 @@ const POPULAR_SKILLS = [
   'Programming', 'Design', 'Photography', 'Writing', 
   'Music', 'Cooking', 'Languages', 'Marketing'
 ];
-
+//ExploreSkillsPage
 export default function ExploreSkillsPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
