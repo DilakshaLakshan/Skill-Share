@@ -1,2 +1,4 @@
 SpringBoot-backend/src/main/resources/application.properties
 SpringBoot-backend/src/main/resources/application.yml
+config.bat
+node_modules

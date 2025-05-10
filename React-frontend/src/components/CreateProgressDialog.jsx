@@ -51,7 +51,7 @@ const CreateProgressDialog = ({ open, onClose, progressToEdit = null, userId }) 
     label: skill.name 
   })) || [];
 
-  // Setup mutations
+  // Setup muta tions
   const createMutation = useMutation(
     (data) => learningProgressApi.createProgress(data),
     {
