@@ -46,7 +46,7 @@ export default function PostPage() {
       }
     }
   }, [location]);
-
+  //post
   const { data: postData, isLoading: postLoading, error: postError } = useQuery(
     ['post', postId],
     () => postApi.getPost(postId),
